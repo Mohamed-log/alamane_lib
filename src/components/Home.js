@@ -10,8 +10,8 @@ function Home() {
   return (
     <div className="relative  ">
       <img src={IMG} alt="img" className="w-full h-auto" />
-      <div className="absolute sm:top-6 top-10 left-5 right-0 bottom-0   justify-center  ">
-        <h1 className="text-white text-9xl font-bold  drop-shadow-md  md:text-8xl  sm:text-5xl  uppercase">
+      <div className="absolute sm:top-4 top-10 left-5 right-0 bottom-0   justify-center  ">
+        <h1 className="text-white text-9xl font-bold  drop-shadow-md  md:text-8xl  sm:text-4xl  uppercase">
           AL AMANE <br />
           LIBRAIRIE <br /> مكتبة الأمان
         </h1>
