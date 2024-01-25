@@ -3,32 +3,38 @@ import IMG from "./1.png";
 import IMG1 from "./ll.png";
 import IMG2 from "./ee.jpg";
 import IMG3 from "./ii.png";
-
+import IMG4 from "./r.png"
 import React from "react";
 
 function Home() {
   return (
-    <div className="relative ">
+    <div className="relative  ">
       <img src={IMG} alt="img" className="w-full h-auto" />
-      <div className="absolute top-10 left-5 right-0 bottom-0  justify-center ">
-        <h1 className="text-white text-9xl font-bold  drop-shadow-md   uppercase">
-          AL AMANE
-        </h1>
-        <h1 className="text-white text-9xl font-bold  drop-shadow-md   uppercase">
-          LIBRAIRIE
-        </h1>
-        <h1 className="text-white text-9xl font-bold  drop-shadow-md   uppercase">
-          مكتبة الأمان
+      <div className="absolute sm:top-6 top-10 left-5 right-0 bottom-0   justify-center  ">
+        <h1 className="text-white text-9xl font-bold  drop-shadow-md  md:text-8xl  sm:text-5xl  uppercase">
+          AL AMANE <br />
+          LIBRAIRIE <br /> مكتبة الأمان
         </h1>
       </div>
-      <div className="bg-gray-100 flex items-center p-8">
-        <img src={IMG2} alt="img" className="rounded-lg mr-4" />
+      <div className="bg-gray-100 flex items-center sm:flex-col  p-8">
+        <img
+          src={IMG2}
+          alt="img"
+          className="rounded-lg mr-4 md:w-1/2 sm:hidden "
+        />
         <div>
-          <h1 className="text-green-500  text-7xl mb-4 ">Alamane Librairie</h1>
-          <h1 className="text-green-600 underline decoration-dashed  text-3xl text-right mb-4 tracking-wide ">
+          <h1 className="text-green-500  text-7xl mb-4 md:text-4xl sm:text-3xl sm:text-center ">
+            Alamane Librairie
+          </h1>
+          <img
+            src={IMG2}
+            alt="img"
+            className="rounded-lg mr-4 md:w-1/2 lg:hidden xl:hidden 2xl:hidden md:hidden sm:w-2/2  "
+          />
+          <h1 className="text-green-600 underline decoration-dashed  text-3xl text-right mb-4 tracking-wide sm:mt-5">
             مكتبة الأمان
           </h1>
-          <p className="text-right text-1xl font-bold text-black-700">
+          <p className="text-right text-1xl font-bold text-black-700 md:text-sm">
             نرحب بكم في متجرنا! نحن نقدم مجموعة متنوعة من المنتجات والخدمات، بما
             في ذلك الكتب والإلكترونيات ولوازم المكتب والخدمات الرقمية مثل إنشاء
             المواقع وزيادة نمو وسائل التواصل الاجتماعي. نحن نقدم أيضًا خدمات
@@ -41,13 +47,20 @@ function Home() {
           </p>
         </div>
       </div>
-      <div className="flex items-center p-8">
+      <div className="flex items-center p-8 sm:flex-col">
         <div className="ml-4">
-          <h1 className="text-green-500  text-7xl mb-4 ">School Supplies</h1>
-          <h1 className="text-green-600 underline decoration-dashed text-3xl text-right mb-4 tracking-wide">
+          <h1 className="text-green-500  text-7xl mb-4 md:text-4xl sm:text-3xl sm:text-center">
+            School Supplies
+          </h1>
+          <img
+            src={IMG1}
+            alt="img"
+            className="rounded-lg md:w-1/2 lg:hidden xl:hidden 2xl:hidden md:hidden"
+          />
+          <h1 className="text-green-600 underline decoration-dashed sm:mt-5 text-3xl text-right mb-4 tracking-wide">
             اللوازم المدرسية
           </h1>
-          <p className="text-right text-1xl font-bold text-black-700">
+          <p className="text-right text-1xl font-bold text-black-700 md:text-sm">
             هل تبحث عن لوازم مدرسية عالية الجودة بأسعار معقولة؟ نحن هنا
             لمساعدتك! يوفر متجرنا مجموعة واسعة من اللوازم المدرسية، بما في ذلك
             الدفاتر والأقلام والمجلدات وأكثر من ذلك. سواء كنت تبحث عن لوازم
@@ -56,16 +69,27 @@ function Home() {
             بأسعار مناسبة
           </p>
         </div>
-        <img src={IMG1} alt="img" className="rounded-lg  " />
+        <img src={IMG1} alt="img" className="rounded-lg md:w-1/2 sm:hidden" />
       </div>
       <div className="bg-gray-100 flex items-center p-8">
-        <img src={IMG3} alt="img" className="rounded-lg mr-4 " />
+        <img
+          src={IMG3}
+          alt="img"
+          className="rounded-lg mr-4 md:w-1/2 sm:hidden "
+        />
         <div>
-          <h1 className="text-green-500  text-7xl mb-4 ">Printing</h1>
-          <h1 className="text-green-600 underline decoration-dashed  text-3xl text-right mb-4 tracking-wide ">
+          <h1 className="text-green-500  text-7xl mb-4 md:text-4xl sm:text-3xl sm:text-center">
+            Printing
+          </h1>
+          <img
+            src={IMG4}
+            alt="img"
+            className="rounded-lg mr-4 md:w-1/2 lg:hidden xl:hidden 2xl:hidden md:hidden"
+          />
+          <h1 className="text-green-600 underline decoration-dashed sm:mt-5  text-3xl text-right mb-4 tracking-wide ">
             الطباعة
           </h1>
-          <p className="text-right text-1xl font-bold text-black-700">
+          <p className="text-right text-1xl font-bold text-black-700 md:text-sm">
             بحاجة إلى نسخ وثائقك بسرعة وسهولة؟ جهاز النسخ الخاص بنا هو ما
             تحتاجه! يمكنك الآن الحصول على نسخ عالية الجودة لأي وثيقة تحتاج إليها
             بسرعة وكفاءة، سواء كانت وثائق مدرسية أو ملفات عمل. بفضل جهاز النسخ

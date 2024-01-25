@@ -1,5 +1,5 @@
 // App.js
-import logo from './components/logo.jpg'
+import logo from "./components/logo.jpg";
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <div>
-        <nav className="bg-gradient-to-r from-green-500 to-black p-4 drop-shadow-md">
+        <nav className="bg-gradient-to-r from-green-500 to-black p-4 xs:text-xs md:px-3 lg:px-8 xl:px-10 drop-shadow-md">
           <div className="flex items-center justify-between">
             <div className="w-10 h-10 rounded-full overflow-hidden">
               <img
@@ -19,20 +19,29 @@ function App() {
                 className="w-full h-full object-cover"
               />
             </div>
-            <ul className="flex justify-center space-x-9 text-white">
+            <ul className="flex justify-center space-x-4 md:space-x-9 text-white ">
               <li>
-                <Link to="/" className="hover:text-green-500">
+                <Link
+                  to="/"
+                  className="hover:text-green-500 text-sm md:text-sm "
+                >
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/SchoolSupplies" className="hover:text-green-500">
+                <Link
+                  to="/SchoolSupplies"
+                  className="hover:text-green-500 text-sm md:text-sm"
+                >
                   School Supplies
                   <br /> اللوازم المدرسية
                 </Link>
               </li>
               <li>
-                <Link to="/ContactUs" className="hover:text-green-500">
+                <Link
+                  to="/ContactUs"
+                  className="hover:text-green-500 text-sm md:text-sm"
+                >
                   Contact Us
                   <br />
                   اتصل بنا

@@ -19,8 +19,8 @@ function SchoolSupplies() {
 
   return (
     <div>
-      <div className="flex">
-        <div className="bg-green-500 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
+      <div className="flex md:mr-6 sm:mr-5">
+        <div className="sm:hidden bg-green-500 md:w-80 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
           <img src={logo} alt="img0" className="w-full h-50 object-cover" />
           <div className="px-4 py-2">
             <div className="font-bold text-lg mb-1 text-center">Pen</div>
@@ -37,7 +37,7 @@ function SchoolSupplies() {
           </div>
         </div>
 
-        <div className="bg-green-500 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
+        <div className="sm:hidden bg-green-500 md:w-80 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
           <img src={logo} alt="img0" className="w-full h-50 object-cover" />
           <div className="px-4 py-2">
             <div className="font-bold text-lg mb-1 text-center">Pen</div>
@@ -54,7 +54,7 @@ function SchoolSupplies() {
           </div>
         </div>
 
-        <div className="bg-green-500 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
+        <div className="bg-green-500 md:w-80 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
           <img src={logo} alt="img0" className="w-full h-50 object-cover" />
           <div className="px-4 py-2">
             <div className="font-bold text-lg mb-1 text-center">Pen</div>
@@ -71,7 +71,7 @@ function SchoolSupplies() {
           </div>
         </div>
 
-        <div className="bg-green-500 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
+        <div className="bg-green-500 md:w-80 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
           <img src={logo} alt="img0" className="w-full h-50 object-cover" />
           <div className="px-4 py-2">
             <div className="font-bold text-lg mb-1 text-center">Pen</div>
@@ -89,8 +89,8 @@ function SchoolSupplies() {
         </div>
       </div>
       <div>
-        <div className="flex">
-          <div className="bg-green-500 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
+        <div className="flex md:mr-6 sm:mr-5">
+          <div className="sm:hidden bg-green-500 md:w-80 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
             <img src={logo} alt="img0" className="w-full h-50 object-cover" />
             <div className="px-4 py-2">
               <div className="font-bold text-lg mb-1 text-center">Pen</div>
@@ -107,7 +107,7 @@ function SchoolSupplies() {
             </div>
           </div>
 
-          <div className="bg-green-500 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
+          <div className="bg-green-500 md:w-80 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
             <img src={logo} alt="img0" className="w-full h-50 object-cover" />
             <div className="px-4 py-2">
               <div className="font-bold text-lg mb-1 text-center">Pen</div>
@@ -124,7 +124,7 @@ function SchoolSupplies() {
             </div>
           </div>
 
-          <div className="bg-green-500 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
+          <div className="bg-green-500 md:w-80 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
             <img src={logo} alt="img0" className="w-full h-50 object-cover" />
             <div className="px-4 py-2">
               <div className="font-bold text-lg mb-1 text-center">Pen</div>
@@ -141,7 +141,7 @@ function SchoolSupplies() {
             </div>
           </div>
 
-          <div className="bg-green-500 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
+          <div className="sm:hidden bg-green-500 md:w-80 w-64 rounded overflow-hidden shadow-lg ml-10 mt-5 hover:border-4 border-green-500 cursor-pointer">
             <img src={logo} alt="img0" className="w-full h-50 object-cover" />
             <div className="px-4 py-2">
               <div className="font-bold text-lg mb-1 text-center">Pen</div>
